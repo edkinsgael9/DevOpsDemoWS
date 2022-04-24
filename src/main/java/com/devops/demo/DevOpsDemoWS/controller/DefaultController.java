@@ -15,5 +15,10 @@ public class DefaultController {
 	public String helloAuthor() {
 		return "Hellow Edkins Gael KOUNA ETEME !!!";
 	}
+	
+	@GetMapping("/hello-elo")
+	public String helloElo() {
+		return "Hellow ELOUNDOU Celestin Placide !!!";
+	}
 }
 
