@@ -11,7 +11,7 @@ public class DefaultController {
 		return "Hello World !!!";
 	}
 	
-	@GetMapping("hello-author")
+	@GetMapping("/hello-author")
 	public String helloAuthor() {
 		return "Hellow Edkins Gael KOUNA ETEME !!!";
 	}
