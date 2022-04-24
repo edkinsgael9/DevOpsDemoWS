@@ -8,7 +8,12 @@ public class DefaultController {
 	
 	@GetMapping("/test-hello")
 	public String test() {
-		return "Hello Wordl !!!";
+		return "Hello World !!!";
+	}
+	
+	@GetMapping("hello-author")
+	public String helloAuthor() {
+		return "Hellow Edkins Gael KOUNA ETEME !!!";
 	}
 }
 
