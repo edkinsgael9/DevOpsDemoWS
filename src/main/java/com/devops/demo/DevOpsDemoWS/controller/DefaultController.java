@@ -13,12 +13,17 @@ public class DefaultController {
 	
 	@GetMapping("/hello-author")
 	public String helloAuthor() {
-		return "Hellow Edkins Gael KOUNA ETEME !!!";
+		return "Hello Edkins Gael KOUNA ETEME !!!";
 	}
 	
 	@GetMapping("/hello-elo")
 	public String helloElo() {
-		return "Hellow ELOUNDOU Celestin Placide !!!";
+		return "Hello ELOUNDOU Celestin Placide !!!";
+	}
+	
+	@GetMapping("/hello-everyone")
+	public String helloEveryone() {
+		return "Hello Everyone !!!";
 	}
 }
 
