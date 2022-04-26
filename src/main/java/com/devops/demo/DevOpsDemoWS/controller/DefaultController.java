@@ -25,5 +25,10 @@ public class DefaultController {
 	public String helloEveryone() {
 		return "Hello Everyone !!!";
 	}
+	
+	@GetMapping("/hello-eric")
+	public String helloEric() {
+		return "Hello Eric CHOUPO KAYO !!!";
+	}
 }
 
